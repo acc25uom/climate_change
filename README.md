@@ -2,4 +2,4 @@ This programming file (calculatedirectandindirecteffect.R) calculates the direct
 
 The project has a DOI : 10.5281/zenodo.14961401 . 
 
-More elaborated case studies and software applications are available here https://cornar.shinyapps.io/thirdapp/ . Input files will be available in order to run them. 
+More elaborated case studies and software applications by using R language programming and Shiny (R) app programming are available here https://cornar.shinyapps.io/thirdapp/ . Input files will be made available in order to run the software. 
