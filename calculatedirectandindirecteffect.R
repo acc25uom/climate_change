@@ -75,8 +75,8 @@ charac[8] = "P"
 
 
 # Index j goes from 1 to 8 as the direct/indirect effects are calculated for 8 different
-# periods of time for comparison purposes: 2010 to 2016; 2011 to 2017; 2012 to 2018; 2013 to 2019; 2014 to 2020; 
-# 2015 to 2021; 2016 to 2022; 2017 to 2023
+# periods of time for comparison purposes: 2010 to 2016; 2010 to 2017; 2010 to 2018; 2010 to 2019; 2010 to 2020; 
+# 2010 to 2021; 2010 to 2022; 2010 to 2023
 
 for (j in 1:8)
 {
