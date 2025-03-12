@@ -93,16 +93,16 @@ for (j in 1:8)
 
 
     #Training 
-    temperature_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "Maximum Temperature", range = train_data)#S38
-    #temperature_test<- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "Maximum Temperature", range = test_data)#S38
+    temperature_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "Maximum Temperature", range = train_data)#S38
+    #temperature_test<- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "Maximum Temperature", range = test_data)#S38
 
     #outcome event of interest 
-    outcome_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "Outcome", range = train_data)#G38
-    #outcome_test <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "Outcome", range = test_data)#G38
+    outcome_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "Outcome", range = train_data)#G38
+    #outcome_test <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "Outcome", range = test_data)#G38
 
   
-    gdpagriculture_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "GDP", range = train_data)#S38
-    #gdpagriculture_test <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Data test.xlsx", sheet = "GDP", range = test_data)#S38
+    gdpagriculture_train <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "GDP", range = train_data)#S38
+    #gdpagriculture_test <- read_excel("C:/backup/PredictionDisease/SoftZenodo/Dataset.xlsx", sheet = "GDP", range = test_data)#S38
 
 
     #train data
